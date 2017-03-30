@@ -191,7 +191,7 @@ class SegmentioCell: UICollectionViewCell {
             attribute: .trailing,
             relatedBy: .equal,
             toItem: containerView,
-            attribute: .trailingMargin,
+            attribute: .trailing, //changed from .trailingMargin. remove std margin 8pt
             multiplier: 1.0,
             constant: 0
         )
@@ -200,7 +200,7 @@ class SegmentioCell: UICollectionViewCell {
             attribute: .leading,
             relatedBy: .equal,
             toItem: containerView,
-            attribute: .leadingMargin,
+            attribute: .leading, //changed from .leadingMargin. remove std margin 8pt
             multiplier: 1.0,
             constant: 0
         )
